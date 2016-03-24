@@ -13,6 +13,7 @@
 		10786D1C1CA473CD0075FF37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10786D1A1CA473CD0075FF37 /* Main.storyboard */; };
 		10786D1E1CA473CD0075FF37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10786D1D1CA473CD0075FF37 /* Assets.xcassets */; };
 		10786D211CA473CD0075FF37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10786D1F1CA473CD0075FF37 /* LaunchScreen.storyboard */; };
+		10786D2A1CA4751C0075FF37 /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10786D291CA4751C0075FF37 /* DieLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		10786D1D1CA473CD0075FF37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10786D201CA473CD0075FF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10786D221CA473CD0075FF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10786D281CA4751C0075FF37 /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DieLabel.h; path = ../DieLabel.h; sourceTree = "<group>"; };
+		10786D291CA4751C0075FF37 /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DieLabel.m; path = ../DieLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				10786D171CA473CD0075FF37 /* ViewController.h */,
 				10786D181CA473CD0075FF37 /* ViewController.m */,
 				10786D1A1CA473CD0075FF37 /* Main.storyboard */,
+				10786D281CA4751C0075FF37 /* DieLabel.h */,
+				10786D291CA4751C0075FF37 /* DieLabel.m */,
 				10786D1D1CA473CD0075FF37 /* Assets.xcassets */,
 				10786D1F1CA473CD0075FF37 /* LaunchScreen.storyboard */,
 				10786D221CA473CD0075FF37 /* Info.plist */,
@@ -152,6 +157,7 @@
 				10786D191CA473CD0075FF37 /* ViewController.m in Sources */,
 				10786D161CA473CD0075FF37 /* AppDelegate.m in Sources */,
 				10786D131CA473CD0075FF37 /* main.m in Sources */,
+				10786D2A1CA4751C0075FF37 /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Farkle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mfnadvies.Farkle;
@@ -274,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Farkle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mfnadvies.Farkle;
